@@ -1,17 +1,20 @@
 {
-    "name":"Full Moon Platform plugin example",
+    "name":"Aug15thRedPacket",
     "main":"index",
-    "description":"A plugin developed with Full Moon Platform.",
+    "description":"适用于满月平台的转账、红包与支付系统 .",
     "build_dir":"dist",
-    "data_path":"fmp_plugin_example",
+    "data_path":"Aug15thRedPacket",
     "src_dir":"src",
-    "plugin_dir_name":"fmp_plugin_example",
+    "plugin_dir_name":"Aug15thRedPacket",
     "supported_platforms":{
         "mode":"bl",
-        "list":[]
+        "list":["esjse"]
     },
-    "permissionRoot":"fmppluginexample",
-    "features":[],
+    "permissionRoot":"aug15thredpacket",
+    "features":[
+        "yml",
+        "sqlite3"
+    ],
     "priorities":{
         "default":[
             "LNSDK"
